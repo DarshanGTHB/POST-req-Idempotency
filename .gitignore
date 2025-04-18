@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Firebase service account key (keep this secret!)
+firebase_key.json
+
+# VS Code config
+.vscode/
+
+# macOS files
+.DS_Store
+
+# PyCharm / JetBrains IDE
+.idea/
+
+# Logs
+*.log
+
+# Python environment files
+*.env
+.env.*
+
+# Uvicorn reload file
+reload.*
+
+# pip dependency lock
+poetry.lock
+Pipfile.lock
+
+# Compiled files
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Database or local dev artifacts
+*.db
+*.sqlite3
+
+# Test cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+.tox/
+.cache/
+
+# MyPy & Pylint
+.mypy_cache/
+.pylint.d/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Gunicorn / FastAPI debug sockets
+*.sock
